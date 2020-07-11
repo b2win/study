@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+/* ------ ---------------------------*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+/* HEADER ---------------------------*/
+.logo {
+  width: 250px;
+  margin: 10px;
+}
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.main-nav li {
+  margin-left: 36px;
+  list-style: none;
+  float: left;
+}
+.main-nav a {
+  color: #432;
+}
+.main-nav a:hover {
+  color: #788897;
+}
+/* 메인 리스트 가운데 정렬 & 서브 리스트 오른쪽 정렬 하는 방법?----*/
+.sub-list li {
+  font-size: 13px;
+  align: auto;
+  text-align-last: justify;
+ }
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+  text-align: justify;
+}
+
+/* MAIN ---------------------------*/
+.main-content {
+  text-align: center;
+  margin-top: 10%
+}
+.main-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+#main {
+  background-image: url(../images/main.jpg);
+  min-height: 100vh;
+}
+
+#main .page-title {
+  text-transform: none;
+}
+
+/* 제목 */
+.page-title {
+  font-size: 5rem;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/* 버튼 */
+
+.button {
+  font-size:  1.5rem;
+  background: #697166;
+  color: #432;
+  border-radius: 30px;
+  padding: 1px 15px;
+}
+
+.button:hover {
+  color: #788897;
+}
+
+/* 큰 배경 이미지 */
+.big-bg {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+/*Footer ----------------------------*/
+footer {
+  background: #e5b7be;
+  text-align: center;
+  padding: 10px 0;
+}
+footer p {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+/* 여행지 순위 ----------------------------------*/
+h2 {
+  text-align: center;
+  color: #0c4da2;
+  text-shadow: #b07f72 1px 0 10px;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+#rank {
+  background-image: url(../images/rank.jpg);
+}
+
+.grid {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 30px;
+}
+.item img:hover {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.item p {
+  size: 5px;
+}
+
+
+/* Q&A ----------------------------------*/
+#qa {
+  background-image: url(../images/qa-bg.jpg);
+  min-height: 100vh;
+}
+
+
+/* 입력 양식 */
+form div {
+  margin-bottom: 14px;
+}
+label {
+  font-size: 1.125rem;
+  margin-bottom: : 10px;
+  display: block;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, .5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+  border: solid skyblue;
+  color:black;
+}
+textarea {
+  width: 100%;
+  max-width: 700px;
+  height: 10rem;
+  border: solid skyblue;
+  color:black;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.button-submit {
+  font-size:  1.5rem;
+  background: #b4c1d1;
+  color: black;
+  border-radius: 35px;
+  padding: 10px 15px;
+}
+
+.button-submit:hover {
+  color: #788897;
+}
+
+
+/* News ----------------------------------*/
+
+.grid1 {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  gap: 30px;
+}
+
+
+
+/* log-in ----------------------------------*/
+.button-login {
+  color: black;
+  background: #b4c1d1;
+  margin: 20px 0 20px 0;
+  border-radius: 10px;
+}
