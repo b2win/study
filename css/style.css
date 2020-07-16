@@ -180,16 +180,19 @@ label {
 input[type="text"],
 input[type="password"],
 input[type="email"],
+input[type="message"],
 textarea {
   background: rgba(255, 255, 255, .5);
-  border: 1px #fff solid;
+  border: 1px skyblue solid;
   border-radius: 5px;
   padding: 10px;
   font-size: 1rem;
 }
 input[type="text"],
 input[type="password"],
-input[type="email"] {
+input[type="email"],
+input[type="message"],
+ {
   width: 100%;
   max-width: 240px;
   border: solid skyblue;
@@ -237,4 +240,29 @@ input[type="submit"] {
   background: #b4c1d1;
   margin: 20px 0 20px 0;
   border-radius: 10px;
+}
+
+
+/* company ----------------------------------*/
+.com-side {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.company-art {
+  width: 70%;
+}
+.company-art p {
+  color: #0c4da2;
+}
+.sidebar {
+  font-size: 1.375em;
+  padding: 8px 8px 8px 8px;
+  border-bottom: 2px #0bd solid;
+  font-weight: normal;
+  width: 20%;
+}
+.list {
+  text-decoration: none;
+  text-decoration-color: black;
 }
