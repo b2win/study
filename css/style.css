@@ -244,25 +244,59 @@ input[type="submit"] {
 
 
 /* company ----------------------------------*/
+article {
+  border-left: #b3bfca 2px solid;
+  padding: 2em;
+}
 .com-side {
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
+  padding: 4%;
 }
 .company-art {
-  width: 70%;
+  width: 85%;
 }
 .company-art p {
   color: #0c4da2;
+  padding: 1em;
 }
 .sidebar {
   font-size: 1.375em;
   padding: 8px 8px 8px 8px;
   border-bottom: 2px #0bd solid;
   font-weight: normal;
-  width: 20%;
+  text-decoration: none;
+  
 }
 .list {
-  text-decoration: none;
-  text-decoration-color: black;
+  list-style: none;
+  margin-top: 1em;
+}
+.list a {
+  color: black;
+}
+.list a:hover {
+  color: #56c1cf;
+}
+
+/*table*/
+table {
+  border: 1px solid skyblue;
+  width: 70%;
+  height: 10%;
+  text-align: center;
+  margin: auto;
+}
+th, td {
+  border: 1px solid skyblue;
+}
+
+/* team contact*/
+.team {
+  border-right: skyblue 2px;
+}
+.phone {
+  width: 10%;
+  text-align: center;
 }
