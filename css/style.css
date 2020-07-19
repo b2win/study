@@ -303,7 +303,7 @@ article {
 }
 .head {
   color:#493eac;
-  text-shadow: #fa48a1 3px 0 5px;
+  text-shadow: #A1AC3E 3px 0 5px;
   font-size: 3em;
 }
 
@@ -314,6 +314,7 @@ table {
   height: 10%;
   text-align: center;
   margin: auto;
+  border-collapse: collapse;
 }
 th, td {
   border: 1px solid skyblue;
