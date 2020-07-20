@@ -332,10 +332,14 @@ th, td {
 }
 /* location*/
 #location {
-  padding: 4% 0;
+  padding: 4% 0 0 0;
 }
 .location-info {
   width: 50%;
+}
+.wrapper-map {
+  padding: 0 50px 0 50px;
+  height: 80vh;
 }
 
 /*iframe*/
