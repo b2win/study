@@ -38,10 +38,11 @@ img {
 .main-nav a:hover {
   color: #788897;
 }
+
 /* 메인 리스트 가운데 정렬 & 서브 리스트 오른쪽 정렬 하는 방법?----*/
 .sub-list li {
   font-size: 13px;
-  align: auto;
+  box-align: auto;
   text-align-last: justify;
  }
 .page-header {
@@ -64,12 +65,10 @@ img {
   font-size: 1.125rem;
   margin: 10px 0 42px;
 }
-
 #main {
   background-image: url(../images/main.jpg);
   min-height: 100vh;
 }
-
 #main .page-title {
   text-transform: none;
 }
@@ -83,7 +82,6 @@ img {
 }
 
 /* 버튼 */
-
 .button {
   font-size:  1.5rem;
   background: #697166;
@@ -91,7 +89,6 @@ img {
   border-radius: 30px;
   padding: 1px 15px;
 }
-
 .button:hover {
   color: #788897;
 }
@@ -113,7 +110,6 @@ footer p {
   color: #fff;
   font-size: 0.875rem;
 }
-
 .wrapper-ft {
   max-width: 1100px;
   margin: 0 auto;
@@ -121,23 +117,19 @@ footer p {
   text-align: justify;
 }
 
-
 /* 여행지 순위 ----------------------------------*/
 h2 {
   text-align: center;
   color: #0c4da2;
   text-shadow: #b07f72 1px 0 10px;
 }
-
 h3 {
   text-align: center;
   padding: 10px 0;
 }
-
 #rank {
   background-image: url(../images/rank.jpg);
 }
-
 .grid {
   grid-template-columns: 1fr 1fr;
   display: grid;
@@ -159,12 +151,9 @@ h3 {
   transition: .5s ease;
   background-color: #008CBA;
 }
-
 .item p {
   size: 5px;
 }
-
-
 
 /* Q&A ----------------------------------*/
 #qa {
@@ -172,14 +161,13 @@ h3 {
   min-height: 100vh;
 }
 
-
 /* 입력 양식 */
 form div {
   margin-bottom: 14px;
 }
 label {
   font-size: 1.125rem;
-  margin-bottom: : 10px;
+  margin-bottom: 10px;
   display: block;
 }
 input[type="text"],
@@ -196,7 +184,7 @@ textarea {
 input[type="text"],
 input[type="password"],
 input[type="email"],
-input[type="message"],
+input[type="message"]
  {
   width: 100%;
   max-width: 240px;
@@ -215,7 +203,6 @@ input[type="submit"] {
   cursor: pointer;
   line-height: 1;
 }
-
 .button-submit {
   font-size:  1.5rem;
   background: #b4c1d1;
@@ -223,20 +210,16 @@ input[type="submit"] {
   border-radius: 35px;
   padding: 10px 15px;
 }
-
 .button-submit:hover {
   color: #788897;
 }
 
-
 /* News ----------------------------------*/
-
 .grid1 {
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   gap: 30px;
 }
-
 .item img {
   height: 200px;
   width: 300px;
@@ -254,8 +237,6 @@ input[type="submit"] {
   background-color: #008CBA;
 }
 
-
-
 /* log-in ----------------------------------*/
 .button-login {
   color: black;
@@ -263,7 +244,6 @@ input[type="submit"] {
   margin: 20px 0 20px 0;
   border-radius: 10px;
 }
-
 
 /* company ----------------------------------*/
 article {
@@ -273,15 +253,21 @@ article {
 .com-side {
   display: flex;
   justify-content: space-between;
-  padding-left: 4%;
+  padding-left: 15%;
   padding-right: 4%;
 }
 .company-art {
-  width: 85%;
+  width: 95%;
+  height: 100%;
+  padding: 0 0 0 5em;
 }
 .company-art p {
   color: #0c4da2;
   padding: 1em;
+}
+aside {
+  position: fixed;
+  padding-left: 3em;
 }
 .sidebar {
   font-size: 1.375em;
@@ -289,7 +275,6 @@ article {
   border-bottom: 2px #0bd solid;
   font-weight: normal;
   text-decoration: none;
-  
 }
 .list {
   list-style: none;
@@ -330,16 +315,16 @@ th, td {
   padding-left: 43%;
   font-size: 1.5em;
 }
+
 /* location*/
-#location {
-  padding: 4% 0 0 0;
+.location {
+  height: 200%;
 }
 .location-info {
   width: 50%;
 }
 .wrapper-map {
   padding: 0 50px 0 50px;
-  height: 80vh;
 }
 
 /*iframe*/
