@@ -28,9 +28,10 @@ img {
   margin-top: 7px;
 }
 .main-nav li {
-  margin-left: 36px;
+  margin: 0 2.3em;
   list-style: none;
   float: left;
+  text-align: center;
 }
 .main-nav a {
   color: #432;
@@ -41,9 +42,8 @@ img {
 
 /* 메인 리스트 가운데 정렬 & 서브 리스트 오른쪽 정렬 하는 방법?----*/
 .sub-list li {
-  font-size: 13px;
-  box-align: auto;
-  text-align-last: justify;
+  font-size: 0.8em;
+  margin: 0.5em;
  }
 .page-header {
   display: flex;
@@ -52,7 +52,7 @@ img {
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 5% 5% 5%;
+  padding: 3% 3% 3% 3%;
   text-align: justify;
 }
 
@@ -128,7 +128,7 @@ h3 {
   padding: 10px 0;
 }
 #rank {
-  background-image: url(../images/rank.jpg);
+  background-image: url(../images/rank-bg.jpg);
 }
 .grid {
   grid-template-columns: 1fr 1fr;
@@ -219,6 +219,7 @@ input[type="submit"] {
   grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   gap: 30px;
+  width: auto;
 }
 .item img {
   height: 200px;
@@ -235,6 +236,9 @@ input[type="submit"] {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
+}
+.item p {
+  width: 95%
 }
 
 /* log-in ----------------------------------*/
